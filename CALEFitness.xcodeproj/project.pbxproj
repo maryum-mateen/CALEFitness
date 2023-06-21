@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AAFFDF42A2FC24000366396 /* CALEFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFDF32A2FC24000366396 /* CALEFitnessApp.swift */; };
-		1AAFFDF62A2FC24000366396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFDF52A2FC24000366396 /* ContentView.swift */; };
+		1A22788B2A43705C00AAF541 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22788A2A43705C00AAF541 /* ContentView.swift */; };
+		1A22788D2A43706900AAF541 /* CALEFitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A22788C2A43706900AAF541 /* CALEFitnessApp.swift */; };
 		1AAFFDF82A2FC24100366396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAFFDF72A2FC24100366396 /* Assets.xcassets */; };
 		1AAFFDFB2A2FC24100366396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAFFDFA2A2FC24100366396 /* Preview Assets.xcassets */; };
 		1AAFFE052A2FC24100366396 /* CALEFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFE042A2FC24100366396 /* CALEFitnessTests.swift */; };
 		1AAFFE0F2A2FC24100366396 /* CALEFitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFE0E2A2FC24100366396 /* CALEFitnessUITests.swift */; };
 		1AAFFE112A2FC24100366396 /* CALEFitnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFE102A2FC24100366396 /* CALEFitnessUITestsLaunchTests.swift */; };
+		1AAFFE222A38C3B700366396 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFE212A38C3B700366396 /* CardView.swift */; };
+		1AAFFE252A38F77C00366396 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFE242A38F77C00366396 /* Colors.swift */; };
+		1AAFFE272A390CB800366396 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFFE262A390CB800366396 /* OnboardingView.swift */; };
+		1AE4ADA92A3CBEE100CB33D3 /* OptionsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4ADA82A3CBEE100CB33D3 /* OptionsBox.swift */; };
+		1AE4ADAB2A421E7C00CB33D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4ADAA2A421E7C00CB33D3 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A22788A2A43705C00AAF541 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../Cale/CALEFitness/CALEFitness/ContentView.swift; sourceTree = "<group>"; };
+		1A22788C2A43706900AAF541 /* CALEFitnessApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CALEFitnessApp.swift; path = ../../../../Cale/CALEFitness/CALEFitness/CALEFitnessApp.swift; sourceTree = "<group>"; };
 		1AAFFDF02A2FC24000366396 /* CALEFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALEFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AAFFDF32A2FC24000366396 /* CALEFitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALEFitnessApp.swift; sourceTree = "<group>"; };
-		1AAFFDF52A2FC24000366396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AAFFDF72A2FC24100366396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AAFFDFA2A2FC24100366396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AAFFE002A2FC24100366396 /* CALEFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALEFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		1AAFFE0A2A2FC24100366396 /* CALEFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALEFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAFFE0E2A2FC24100366396 /* CALEFitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALEFitnessUITests.swift; sourceTree = "<group>"; };
 		1AAFFE102A2FC24100366396 /* CALEFitnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALEFitnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AAFFE212A38C3B700366396 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1AAFFE242A38F77C00366396 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1AAFFE262A390CB800366396 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1AE4ADA82A3CBEE100CB33D3 /* OptionsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsBox.swift; sourceTree = "<group>"; };
+		1AE4ADAA2A421E7C00CB33D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,9 @@
 		1AAFFDF22A2FC24000366396 /* CALEFitness */ = {
 			isa = PBXGroup;
 			children = (
-				1AAFFDF32A2FC24000366396 /* CALEFitnessApp.swift */,
-				1AAFFDF52A2FC24000366396 /* ContentView.swift */,
+				1AAFFE232A38C3C700366396 /* Components */,
+				1AAFFE202A38C39A00366396 /* View */,
+				1AAFFE1F2A38C37F00366396 /* App */,
 				1AAFFDF72A2FC24100366396 /* Assets.xcassets */,
 				1AAFFDF92A2FC24100366396 /* Preview Content */,
 			);
@@ -125,6 +136,34 @@
 				1AAFFE102A2FC24100366396 /* CALEFitnessUITestsLaunchTests.swift */,
 			);
 			path = CALEFitnessUITests;
+			sourceTree = "<group>";
+		};
+		1AAFFE1F2A38C37F00366396 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1A22788A2A43705C00AAF541 /* ContentView.swift */,
+				1A22788C2A43706900AAF541 /* CALEFitnessApp.swift */,
+				1AAFFE262A390CB800366396 /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1AAFFE202A38C39A00366396 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AAFFE212A38C3B700366396 /* CardView.swift */,
+				1AE4ADAA2A421E7C00CB33D3 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AAFFE232A38C3C700366396 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1AAFFE242A38F77C00366396 /* Colors.swift */,
+				1AE4ADA82A3CBEE100CB33D3 /* OptionsBox.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AAFFDF62A2FC24000366396 /* ContentView.swift in Sources */,
-				1AAFFDF42A2FC24000366396 /* CALEFitnessApp.swift in Sources */,
+				1AE4ADA92A3CBEE100CB33D3 /* OptionsBox.swift in Sources */,
+				1AE4ADAB2A421E7C00CB33D3 /* HomeView.swift in Sources */,
+				1A22788B2A43705C00AAF541 /* ContentView.swift in Sources */,
+				1AAFFE252A38F77C00366396 /* Colors.swift in Sources */,
+				1AAFFE222A38C3B700366396 /* CardView.swift in Sources */,
+				1AAFFE272A390CB800366396 /* OnboardingView.swift in Sources */,
+				1A22788D2A43706900AAF541 /* CALEFitnessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
